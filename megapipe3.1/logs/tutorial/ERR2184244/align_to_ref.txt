@@ -1,0 +1,17 @@
+[M::mm_idx_gen::0.178*1.00] collected minimizers
+[M::mm_idx_gen::0.234*1.00] sorted minimizers
+[M::main::0.234*1.00] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.234*1.00] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.242*1.00] distinct minimizers: 722547 (99.04% are singletons); average occurrences: 1.018; average spacing: 5.998; total length: 4411532
+[M::worker_pipeline::9.990*0.99] mapped 346684 sequences
+[M::worker_pipeline::16.776*0.99] mapped 346600 sequences
+[M::worker_pipeline::23.677*0.99] mapped 346652 sequences
+[M::worker_pipeline::30.573*0.99] mapped 346878 sequences
+[M::worker_pipeline::37.677*0.99] mapped 346636 sequences
+[M::worker_pipeline::44.274*0.99] mapped 346662 sequences
+[M::worker_pipeline::50.820*0.99] mapped 346578 sequences
+[M::worker_pipeline::50.884*0.99] mapped 45290 sequences
+[M::main] Version: 2.24-r1122
+[M::main] CMD: minimap2 -ax sr /home/maf7596/home/megapipe/data/TBRefGen.fasta /home/maf7596/home/megapipe/temp/ERR2184244/ERR2184244_1_trimmed.fastq.gz /home/maf7596/home/megapipe/temp/ERR2184244/ERR2184244_2_trimmed.fastq.gz
+[M::main] Real time: 50.893 sec; CPU: 50.535 sec; Peak RSS: 0.479 GB

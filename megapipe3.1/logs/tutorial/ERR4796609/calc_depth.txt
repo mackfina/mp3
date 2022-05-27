@@ -1,0 +1,3 @@
+:: Calculating depth
+  * The percent of H37Rv bases that have a coverage of at least 10x is 99.68269526323283.
+  * Percent of reference genome covered: 0.9981745570473024

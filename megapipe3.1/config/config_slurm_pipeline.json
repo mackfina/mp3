@@ -1,0 +1,93 @@
+{
+    "__default__" :
+    {
+        "account" : "maf7596",
+        "time" : "0-1:00",
+        "n" : 1,
+        "partition" : "short",
+        "mem" : "1G"
+    },
+
+    "trim_with_trimmomatic" :
+    {
+        "account" : "maf7596",
+        "time" : "0-2:00:00",
+        "n" : 1,
+        "partition" : "short",
+        "mem" : "32G"
+    },
+
+    "spades_assemble" :
+    {
+        "account" : "maf7596",
+        "time" : "0-2:00:00",
+        "n" : 1,
+        "partition" : "short",
+        "mem" : "32G"
+    },
+
+    "align_to_ref" :
+    {
+        "account" : "maf7596",
+        "time" : "0-5:00",
+        "n" : 1,
+        "partition" : "short",
+        "mem" : "5G"
+    },
+
+    "combine_runs" :
+    {
+        "account" : "maf7596",
+        "time" : "0-3:00",
+        "n" : 1,
+        "partition" : "short",
+        "mem" : "5G"
+    },
+
+
+    "variant_calling" :
+    {
+        "account" : "maf7596",
+        "time" : "0-12:00",
+        "n" : 1,
+        "partition" : "short",
+        "mem" : "32G"
+    },
+
+    "remove_duplicates" :
+    {
+        "account" : "maf7596",
+        "time" : "0-5:00",
+        "n" : 1,
+        "partition" : "short",
+        "mem" : "32G"
+    },
+
+    "sort_convert_tobam" :
+    {
+        "account" : "maf7596",
+        "time" : "0-1:00",
+        "n" : 1,
+        "partition" : "short",
+        "mem" : "20G"
+    },
+
+    "calculate_depth" :
+    {
+        "account" : "maf7596",
+        "time" : "0-1:00",
+        "n" : 1,
+        "partition" : "short",
+        "mem" : "5G"
+    },
+
+    "kraken" :
+    {
+        "account" : "maf7596",
+        "time" : "0-2:00:00",
+        "n" : 1,
+        "partition" : "short",
+        "mem" : "32G"
+    },
+}
+

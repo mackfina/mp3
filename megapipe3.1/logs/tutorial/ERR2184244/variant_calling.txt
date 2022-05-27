@@ -1,0 +1,178 @@
+Pilon version 1.24 Thu Jan 28 13:00:45 2021 -0500
+Genome: /home/maf7596/home/megapipe/data/TBRefGen.fasta
+Fixing breaks, local, snps, indels, gaps
+Input genome size: 4411532
+Scanning BAMs
+results/ERR2184244/bam/ERR2184244.duprem.bam: 2392358 reads, 0 filtered, 2383694 mapped, 2370956 proper, 9510 stray, FR 100% 343+/-101, max 647 frags
+Processing NC_000962.3:1-4411532
+frags results/ERR2184244/bam/ERR2184244.duprem.bam: coverage 67
+Total Reads: 2385060, Coverage: 67, minDepth: 7
+Confirmed 4355333 of 4411532 bases (98.73%)
+Corrected 939 snps; 0 ambiguous bases; corrected 39 small insertions totaling 191 bases, 45 small deletions totaling 287 bases
+# Attempting to fix local continuity breaks
+fix break: NC_000962.3:71567-71619 71587 -0 +37 BreakFix
+# fix break: NC_000962.3:150003-150568 0 -0 +0 NoSolution
+fix break: NC_000962.3:150825-150954 150896 -0 +108 OpenedGap
+# fix break: NC_000962.3:333795-334298 0 -0 +0 NoSolution
+fix break: NC_000962.3:334530-334713 334654 -0 +272 OpenedGap
+# fix break: NC_000962.3:335154-335832 0 -0 +0 NoSolution
+# fix break: NC_000962.3:336949-337114 0 -0 +0 NoSolution
+# fix break: NC_000962.3:337849-338633 0 -0 +0 NoSolution
+# fix break: NC_000962.3:340429-340486 0 -0 +0 NoSolution
+# fix break: NC_000962.3:362829-362887 0 -0 +0 NoSolution
+# fix break: NC_000962.3:424005-424148 0 -0 +0 NoSolution TandemRepeat 51
+# fix break: NC_000962.3:466851-466895 0 -0 +0 NoSolution
+# fix break: NC_000962.3:580775-580797 0 -0 +0 NoSolution TandemRepeat 77
+# fix break: NC_000962.3:623237-623305 0 -0 +0 NoSolution
+# fix break: NC_000962.3:624035-624374 0 -0 +0 NoSolution
+# fix break: NC_000962.3:672439-672940 0 -0 +0 NoSolution
+# fix break: NC_000962.3:673368-673592 0 -0 +0 NoSolution
+# fix break: NC_000962.3:674851-675201 0 -0 +0 NoSolution
+fix break: NC_000962.3:742520-742757 742635 -0 +533 BreakFix
+# fix break: NC_000962.3:802401-802539 0 -0 +0 NoSolution TandemRepeat 54
+# fix break: NC_000962.3:836274-836463 0 -0 +0 NoSolution
+# fix break: NC_000962.3:837166-837546 0 -0 +0 NoSolution
+# fix break: NC_000962.3:837776-837914 0 -0 +0 NoSolution
+# fix break: NC_000962.3:838875-839626 0 -0 +0 NoSolution
+# fix break: NC_000962.3:839879-840642 0 -0 +0 NoSolution
+fix break: NC_000962.3:888693-889127 889021 -0 +787 OpenedGap
+# fix break: NC_000962.3:890190-890743 0 -0 +0 NoSolution
+# fix break: NC_000962.3:925634-925967 0 -0 +0 NoSolution
+# fix break: NC_000962.3:926626-927447 0 -0 +0 NoSolution
+# fix break: NC_000962.3:928729-928767 0 -0 +0 NoSolution
+# fix break: NC_000962.3:929001-929351 0 -0 +0 NoSolution
+# fix break: NC_000962.3:929665-929672 0 -0 +0 NoSolution
+fix break: NC_000962.3:932031-932427 932205 -0 +554 OpenedGap
+# fix break: NC_000962.3:968999-969042 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1090943-1092035 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1093774-1094062 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1095654-1095713 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1096183-1096362 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1188579-1189878 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1191026-1191594 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1212129-1212604 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1212837-1212961 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1213371-1213701 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1216939-1217075 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1217599-1218224 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1283487-1283558 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1357100-1357204 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1385063-1385409 0 -0 +0 NoSolution
+fix break: NC_000962.3:1451874-1451917 1451882 -114 +0 BreakFix
+# fix break: NC_000962.3:1488447-1488709 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1489260-1489488 0 -0 +0 NoSolution
+fix break: NC_000962.3:1541750-1542117 1541952 -0 +303 OpenedGap
+fix break: NC_000962.3:1543093-1543535 1543309 -0 +319 OpenedGap
+# fix break: NC_000962.3:1572396 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1572942-1573414 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1618403-1619076 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1631527-1631979 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1632441-1632828 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1633346-1634167 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1636793-1637733 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1644242-1644379 0 -0 +0 NoSolution TandemRepeat 53
+# fix break: NC_000962.3:1656097-1656215 0 -0 +0 NoSolution
+fix break: NC_000962.3:1779114-1788567 1779279 -9247 +0 BreakFix
+# fix break: NC_000962.3:1843552-1843656 0 -0 +0 NoSolution TandemRepeat 57
+# fix break: NC_000962.3:1955569-1955685 0 -0 +0 NoSolution TandemRepeat 57
+# fix break: NC_000962.3:1982318-1982325 0 -0 +0 NoSolution TandemRepeat 75
+# fix break: NC_000962.3:1983126-1983199 0 -0 +0 NoSolution TandemRepeat 78
+fix break: NC_000962.3:1986485-1986860 1986626 -0 +609 OpenedGap
+fix break: NC_000962.3:1987542-1987902 1987703 -0 +320 OpenedGap
+fix break: NC_000962.3:1988925-1989083 1989059 -22 +0 BreakFix
+fix break: NC_000962.3:1990086-1990093 1990086 -18 +0 BreakFix
+# fix break: NC_000962.3:1990483-1990797 0 -0 +0 NoSolution
+# fix break: NC_000962.3:1991626-1991957 0 -0 +0 NoSolution
+fix break: NC_000962.3:1996038-1996299 1996101 -8 +253 OpenedGap
+# fix break: NC_000962.3:1997243-1997989 0 -0 +0 NoSolution
+fix break: NC_000962.3:2010718-2011153 2010925 -0 +594 OpenedGap
+fix break: NC_000962.3:2025838-2026202 2025848 -183 +138 BreakFix
+# fix break: NC_000962.3:2061452-2062181 0 -0 +0 NoSolution
+# fix break: NC_000962.3:2088825-2088827 0 -0 +0 NoSolution
+fix break: NC_000962.3:2146032-2146065 2146072 -0 +40 OpenedGap
+fix break: NC_000962.3:2268597-2268838 2268726 -0 +767 OpenedGap
+# fix break: NC_000962.3:2301767-2301793 0 -0 +0 NoSolution
+fix break: NC_000962.3:2302013-2302136 2302013 -120 +21 OpenedGap
+fix break: NC_000962.3:2338187-2338194 2338203 -0 +13 OpenedGap
+fix break: NC_000962.3:2352036-2352107 2352072 -0 +68 BreakFix
+# fix break: NC_000962.3:2356866-2356930 0 -0 +0 NoSolution
+fix break: NC_000962.3:2365241-2365623 2365415 -7 +233 OpenedGap
+fix break: NC_000962.3:2366627-2366949 2366771 -0 +236 OpenedGap
+# fix break: NC_000962.3:2387336-2387610 0 -0 +0 NoSolution
+# fix break: NC_000962.3:2423587-2423859 0 -0 +0 NoSolution
+# fix break: NC_000962.3:2424065-2424254 0 -0 +0 NoSolution
+fix break: NC_000962.3:2429890-2430245 2430117 -0 +358 OpenedGap
+fix break: NC_000962.3:2431249-2431664 2431473 -0 +251 OpenedGap
+fix break: NC_000962.3:2549842-2550168 2550014 -0 +347 OpenedGap
+fix break: NC_000962.3:2551204-2551552 2551370 -0 +320 OpenedGap
+fix break: NC_000962.3:2633705-2635730 2633844 -1733 +0 BreakFix
+fix break: NC_000962.3:2636791-2637107 2636932 -0 +138 OpenedGap
+# fix break: NC_000962.3:2693275-2693519 0 -0 +0 NoSolution
+fix break: NC_000962.3:2704880-2704894 2704886 -0 +21 BreakFix
+fix break: NC_000962.3:2720961-2721027 2720954 -74 +53 OpenedGap
+fix break: NC_000962.3:2784363-2784830 2784613 -1 +318 OpenedGap
+fix break: NC_000962.3:2785828-2786183 2785971 -1 +398 OpenedGap
+# fix break: NC_000962.3:2795985-2795997 0 -0 +0 NoSolution
+# fix break: NC_000962.3:2803621-2803737 0 -0 +0 NoSolution
+# fix break: NC_000962.3:2804446-2804634 0 -0 +0 NoSolution
+# fix break: NC_000962.3:2804982-2805175 0 -0 +0 NoSolution
+# fix break: NC_000962.3:2922138 0 -0 +0 NoSolution
+# fix break: NC_000962.3:2922674-2922832 0 -0 +0 NoSolution
+# fix break: NC_000962.3:2960294-2960379 0 -0 +0 NoSolution
+fix break: NC_000962.3:2960957-2962519 2961295 -1058 +0 BreakFix
+fix break: NC_000962.3:2971918-2972234 2972109 -0 +282 OpenedGap
+fix break: NC_000962.3:2973253-2973678 2973447 -17 +240 OpenedGap
+# fix break: NC_000962.3:2990580-2990584 0 -0 +0 NoSolution TandemRepeat 55
+# fix break: NC_000962.3:3054535-3055007 0 -0 +0 NoSolution
+fix break: NC_000962.3:3115098-3115370 3115231 -0 +315 OpenedGap
+fix break: NC_000962.3:3121765-3122084 3121879 -206 +101 BreakFix
+fix break: NC_000962.3:3122446-3122894 3122698 -221 +0 BreakFix
+# fix break: NC_000962.3:3147136-3147141 0 -0 +0 NoSolution
+# fix break: NC_000962.3:3163452-3163806 0 -0 +0 NoSolution
+fix break: NC_000962.3:3171519-3171575 3171519 -108 +0 BreakFix
+# fix break: NC_000962.3:3239511-3239525 0 -0 +0 NoSolution TandemRepeat 79
+# fix break: NC_000962.3:3336614-3336624 0 -0 +0 NoSolution TandemRepeat 59
+fix break: NC_000962.3:3415182-3415194 3415198 -14 +0 BreakFix
+fix break: NC_000962.3:3423194-3423267 3423256 -0 +68 BreakFix
+fix break: NC_000962.3:3480138-3480572 3480374 -0 +445 OpenedGap
+fix break: NC_000962.3:3551091-3551445 3551230 -0 +77 OpenedGap
+fix break: NC_000962.3:3552363-3552871 3552585 -128 +87 OpenedGap
+fix break: NC_000962.3:3553940-3554246 3554069 -0 +133 OpenedGap
+fix break: NC_000962.3:3690997-3691016 3691003 -58 +0 BreakFix
+fix break: NC_000962.3:3710298-3710543 3710382 -0 +231 OpenedGap
+fix break: NC_000962.3:3711568-3711906 3711737 -0 +203 OpenedGap
+# fix break: NC_000962.3:3737302-3737525 0 -0 +0 NoSolution
+# fix break: NC_000962.3:3737946-3739618 0 -0 +0 NoSolution
+fix break: NC_000962.3:3741698-3742231 3741698 -534 +241 OpenedGap
+# fix break: NC_000962.3:3779604-3779866 0 -0 +0 NoSolution
+fix break: NC_000962.3:3794874-3795255 3795058 -0 +370 OpenedGap
+fix break: NC_000962.3:3796283-3796548 3796413 -0 +282 OpenedGap
+# fix break: NC_000962.3:3802144-3803258 0 -0 +0 NoSolution
+# fix break: NC_000962.3:3841567-3841795 0 -0 +0 NoSolution
+fix break: NC_000962.3:3842282-3842608 3842289 -90 +90 BreakFix
+# fix break: NC_000962.3:3843300-3843823 0 -0 +0 NoSolution TandemRepeat 797
+fix break: NC_000962.3:3846480-3846927 3846842 -0 +1500 OpenedGap
+# fix break: NC_000962.3:3878606-3878610 0 -0 +0 NoSolution
+fix break: NC_000962.3:3890519-3890867 3890779 -0 +273 OpenedGap
+fix break: NC_000962.3:3891966-3892314 3892136 -0 +338 OpenedGap
+# fix break: NC_000962.3:3927045-3928465 0 -0 +0 NoSolution
+fix break: NC_000962.3:3928800-3928861 3928800 -62 +23 OpenedGap
+# fix break: NC_000962.3:3930172-3930571 0 -0 +0 NoSolution
+# fix break: NC_000962.3:3931446-3936610 0 -0 +0 NoSolution
+# fix break: NC_000962.3:3940396-3940406 0 -0 +0 NoSolution
+# fix break: NC_000962.3:3940723-3940926 0 -0 +0 NoSolution
+# fix break: NC_000962.3:3941481-3942231 0 -0 +0 NoSolution
+# fix break: NC_000962.3:3942769-3944670 0 -0 +0 NoSolution
+# fix break: NC_000962.3:3946242-3950024 0 -0 +0 NoSolution
+# fix break: NC_000962.3:4031706-4031723 0 -0 +0 NoSolution
+# fix break: NC_000962.3:4032471-4032624 0 -0 +0 NoSolution
+# fix break: NC_000962.3:4094134-4094294 0 -0 +0 NoSolution
+# fix break: NC_000962.3:4120915-4121059 0 -0 +0 NoSolution TandemRepeat 57
+fix break: NC_000962.3:4353341-4353345 4353360 -51 +0 BreakFix
+NC_000962.3:1-4411532 log:
+Finished processing NC_000962.3:1-4411532
+Writing NC_000962.3:1-4411532 VCF to results/ERR2184244/pilon/ERR2184244.vcf
+Writing updated NC_000962.3_pilon to results/ERR2184244/pilon/ERR2184244.fasta
+Mean frags coverage: 67
+Mean total coverage: 67
+--reducing size of vcf file results/ERR2184244/pilon/ERR2184244_full.vcf

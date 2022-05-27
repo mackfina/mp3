@@ -1,0 +1,5 @@
+[Tue Feb 08 09:26:16 EST 2022] picard.sam.SortSam INPUT=/home/maf7596/home/megapipe/temp/ERR2184244/ERR2184244.sam OUTPUT=/home/maf7596/home/megapipe/temp/ERR2184244/ERR2184244.bam SORT_ORDER=coordinate    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Feb 08 09:26:16 EST 2022] Executing as maf7596@compute-a-16-170.o2.rc.hms.harvard.edu on Linux 3.10.0-1160.45.1.el7.x86_64 amd64; OpenJDK 64-Bit Server VM 11.0.1+13-LTS; Picard version: 2.9.2-22-g6c00976-SNAPSHOT
+INFO	2022-02-08 09:26:55	SortSam	Finished reading inputs, merging and writing to output now.
+[Tue Feb 08 09:27:23 EST 2022] picard.sam.SortSam done. Elapsed time: 1.12 minutes.
+Runtime.totalMemory()=2076049408

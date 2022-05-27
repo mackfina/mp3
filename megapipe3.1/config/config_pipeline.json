@@ -1,0 +1,12 @@
+{
+    "logs_analysis": "/n/data1/hms/dbmi/farhat/rollingDB/MIC-ML_output/Wadsworth/logs/run1/",
+    "output": "/n/data1/hms/dbmi/farhat/rollingDB/MIC-ML_output/Wadsworth/",
+    "summary_runs": "logs/tutorial/summary_runs.tsv",
+    "path_ref_genome": "/home/maf7596/home/megapipe/data/TBRefGen.fasta",
+    "temp_dir":"/n/data1/hms/dbmi/farhat/rollingDB/MIC-ML_output/Wadsworth/temp/",
+    "fastq_dir":"/n/data1/hms/dbmi/farhat/fastq_db/MIC-ML_Consortium/Wadsworth/",
+    "path_to_prinseq":"/home/lf61/mfarhat/bin/prinseq-lite-0.20.4/prinseq-lite.pl",
+    "path_to_kraken_db":"/n/data1/hms/dbmi/farhat/bin/kraken/tbdb/",
+    "bin_fastqvalidator":"/home/maf7596/sw/fastQValidator/bin/fastQValidator",
+    "path_to_picard":"/home/lf61/mfarhat/bin/picard/picard/build/libs/picard.jar"
+}
